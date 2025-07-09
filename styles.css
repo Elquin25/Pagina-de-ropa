@@ -1,0 +1,84 @@
+.nav-link{
+    color: black;
+}
+
+.logo-modaNova{
+  display: inline-block;
+  width: 100+px;
+  height: 60px;
+  margin: 1px;
+}
+
+.logo-modaNova img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Inicio de estilos de formularios*/
+
+.form-register {
+  height: 800px;
+  width: 400px;
+  background-color: transparent;
+  padding: 20px 25px;
+  border-radius: 4px;
+  font-family: "Tahoma";
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.inputs {
+  width: 95%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  margin-bottom: 16px;
+  font-family: "Tahoma";
+  font-size: 18px;
+}
+
+.boton3 {
+  width: 100%;
+  background: rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 12px 16px;
+  border-style: ridge;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(255, 254, 254);
+}
+
+
+
+
+.boton3:hover {
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 1)
+}
+
+/* Fin estilos formulario */ 
+
+/* Estilos imagenes de carrusel */
+
+.d-item{
+  height: 500px;
+}
+
+.d-img{
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.3);
+}
+
+.textos-color{
+  color: aliceblue;
+}
+

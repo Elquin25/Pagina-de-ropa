@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Tienda de ropa</title>
+  </head>
+  <div>
+
+    <header>
+      <!-- Barra de navegacion -->  
+    <div class="shadow p-2 mb-3 bg-body rounded">
+    <nav class="nav nav-pills p-3 justify-content-center">
+
+      <a href="index.html" class="nav-link" aria-current="page"><img class="logo-modaNova" src="imagenes/logo-modaNova.png"></a>
+           <a href="index.html" class="nav-link p-3 text-black" aria-current="page" style="color: black;">Inicio</a>
+    
+      <!-- Boton desplegable de productos para mujer -->
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-3" data-bs-toggle="dropdown" role="button" aria-expanded="false" style="color: black;">Mujer</a>
+          <ul class="dropdown-menu">
+              <li><a href="camisetas-mujer.html" class="dropdown-item">Camisetas / Blusas</a></li>
+              <li><a href="pantalones-shorts.html" class="dropdown-item">Pantalones / Shorts</a></li>
+              <li><a href="chaquetas-sueters.html" class="dropdown-item">Chaquetas / Sueters</a></li>
+              <li><a href="ropa-interior.html" class="dropdown-item">Ropa interior</a></li>
+              <li><a href="tenis-zapatos.html" class="dropdown-item">Tenis / Zapatos</a></li>
+          </ul>
+      </li>
+    
+          <!-- Boton desplegable de productos para hombre -->
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-3" data-bs-toggle="dropdown" role="button" aria-expanded="false" style="color: black;">Hombre</a>
+          <ul class="dropdown-menu">
+              <li><a href="camisetas-polo-m.html" class="dropdown-item">Camisetas / Polo</a></li>
+              <li><a href="chaquetas-sueters-m.html" class="dropdown-item">Chaquetas / Sueters</a></li>
+              <li><a href="pantalones-pantalonetas-m.html" class="dropdown-item">Pantalones / Pantalonetas</a></li>
+              <li><a href="ropa-interior-m.html" class="dropdown-item">Ropa interior</a></li>
+              <li><a href="tenis-zapatos-m.html" class="dropdown-item">Tenis / Zapatos</a></li> 
+          </ul>
+      </li>
+    
+          <!-- Boton desplegable de productos infantiles -->
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-3 active" data-bs-toggle="dropdown" role="button" aria-expanded="false" style="color: black;">Infantil</a>
+          <ul class="dropdown-menu">
+              <li><a href="camisetas-polo-i.html" class="dropdown-item">Camisetas / Polo</a></li>
+              <li><a href="chaquetas-sueters-i.html" class="dropdown-item">Chaquetas / Sueters</a></li>
+              <li><a href="pantalones-pantalonetas-i.html" class="dropdown-item active">Pantalones</a></li>
+              <li><a href="ropa-interior-i.html" class="dropdown-item">Ropa interior</a></li>
+              <li><a href="tenis-zapatos-i.html" class="dropdown-item">Tenis / Zapatos</a></li> 
+          </ul>
+      </li>
+    
+      <!-- Boton desplegable de accesorios -->
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-3" data-bs-toggle="dropdown" role="button" aria-expanded="false" style="color: black;">Accesorios</a>
+          <ul class="dropdown-menu">
+              <li><a href="aretes.html" class="dropdown-item">Aretes</a></li>
+              <li><a href="sombreros.html" class="dropdown-item">Sombreros</a></li>
+              <li><a href="manillas.html" class="dropdown-item">Manillas</a></li>
+              <li><a href="collares.html" class="dropdown-item">Collares</a></li>
+          </ul>
+      </li>
+    
+      
+      <!-- Input search para buscar productos -->
+      <form class="d-flex justify-content-end">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-dark" type="submit">Buscar</button>
+        </form>
+    
+      <!-- Icono de Usuario para entrar a formulario de inicio de sesion-->
+        <a href="iniciosesion.html" class="nav-link" aria-current="page"><img style="width: 30px; height:30px;" src="imagenes\icono-user.png"></a>
+      <!-- Icono de carrito para entrar a formulario de compras -->
+        <a href="#" class="nav-link" aria-current="page"><img style="width: 30px; height:30px;" src="imagenes\icono-carrito.png"></a>
+    
+      </nav>
+    </div>
+    <!-- Fin de barra de navegacion -->
+    </header>
+  
+  <body>
+
+  <!-- Inicio de menu de tarjetas -->
+  <div class="shadow p-2 mb-3 bg-body rounded">
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+  
+      <!-- Tarjeta #1 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagenes/Pantalones - I/pantalon1.jpg" class="card-img-top" alt="img-blusa1">
+          <div class="card-body">
+            <h5 class="card-title">Pantalon de Tela color crema</h5>
+            <p class="card-text">Precio actual $50.000</p>
+            <a href="" class="btn btn-secondary">Añadir al carrito</a>
+        </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+  
+          <!-- Tarjeta #2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagenes/Pantalones - I/pantalon2.jpg" class="card-img-top" alt="img-blusa2">
+          <div class="card-body">
+            <h5 class="card-title">Jogger en algodon Nike color negro</h5>
+            <p class="card-text">Precio actual $45.000</p>
+            <a href="" class="btn btn-secondary">Añadir al carrito</a>
+        </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+  
+          <!-- Tarjeta #3 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagenes/Pantalones - I/pantalon3.jpg" class="card-img-top" alt="img-blusa3">
+          <div class="card-body">
+            <h5 class="card-title">Jogger tipo Jean color azul</h5>
+            <p class="card-text">Precio actual $45.000</p>
+            <a href="" class="btn btn-secondary">Añadir al carrito</a>
+        </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+
+          <!-- Tarjeta #4 -->
+            <div class="col">
+                <div class="card h-100">
+                  <img src="imagenes/Pantalones - I/pantalon4.jpg" class="card-img-top" alt="img-blusa4">
+                  <div class="card-body">
+                    <h5 class="card-title">Jogger tipo jean color blanco</h5>
+                    <p class="card-text">Precio actual $45.000</p>
+                    <a href="" class="btn btn-secondary">Añadir al carrito</a>
+                  </div>
+                  <div class="card-footer">
+                  </div>
+                </div>
+              </div>
+          
+                  <!-- Tarjeta #5 -->
+              <div class="col">
+                <div class="card h-100">
+                  <img src="imagenes/Pantalones - I/pantalon5.jpg" class="card-img-top" alt="img-blusa5">
+                  <div class="card-body">
+                    <h5 class="card-title">Levis corte recto azul clasico</h5>
+                    <p class="card-text">Precio actual $50.000</p>
+                    <a href="" class="btn btn-secondary">Añadir al carrito</a>
+                  </div>
+                  <div class="card-footer">
+                  </div>
+                </div>
+              </div>
+          
+                  <!-- Tarjeta #6 -->
+              <div class="col">
+                <div class="card h-100">
+                  <img src="imagenes/Pantalones - I/pantalon6.jpg" class="card-img-top" alt="blusa6">
+                  <div class="card-body">
+                    <h5 class="card-title">Jogger sencillo color negro y blanco</h5>
+                    <p class="card-text">Precio actual $40.000</p>
+                    <a href="" class="btn btn-secondary">Añadir al carrito</a>
+                  </div>
+                  <div class="card-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+    
+    <!-- Fin de menu de tarjetas -->
+  
+      <!-- Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+
+    <!-- Inicio del footer (Pie de pagina) -->
+  <footer>
+
+    <!-- Contenedores de estilo del footer -->
+    <div class="container-fluid">
+    <div class="row p-5 pb-2 bg-dark text-white">
+
+      <!-- Menu #1 del footer -->
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h3">Tienda de Ropa ModaNova</p>
+        <p class="text-seconday">Bogóta, Colombia</p>
+      </div>
+
+      <!-- Menu #2 del footer -->
+      <div class="col-xs-12 col-md-6 col-lg-3">
+      </div>
+
+      <!-- Menu #3 del footer -->
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb3">Links</p>
+        <div class="mb-2"><a href="#" class="text-secondary text-decoration-none">Terminos y Condiciones</a></div>
+        <div class="mb-2"><a href="#" class="text-secondary text-decoration-none">Politica de Privacidad</a></div>
+      </div>
+
+      <!-- Menu #4 del footer -->
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb3">Redes Sociales</p>
+        <div class="mb-2"><a href="#" class="text-secondary text-decoration-none">Instagram</a></div>
+        <div class="mb-2"><a href="#" class="text-secondary text-decoration-none">Facebook</a></div>
+        <div class="mb-2"><a href="#" class="text-secondary text-decoration-none">WhatsApp</a></div>
+      </div>
+
+      <div class="col-xs-12 pt-4">
+        <p class="text-white text-center">Copyright - All rights reserved © 2023</p>
+      </div>
+
+    </div>
+  </div>
+  </footer>
+  <!-- Fin del footer -->
+</html>
+
+<!-- Fin del codigo pagina web de tienda de ropa GAES 3 -->
